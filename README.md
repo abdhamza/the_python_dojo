@@ -19,8 +19,23 @@ The repository is organized topic-wise, allowing you to focus on specific areas 
 ## How to Use This Repository
 
 1. **Choose a Topic**: Navigate to the topic you're currently learning or want to practice.
-2. **Attempt the Questions**: Each topic folder contains practice questions. Try to solve them on your own first.
+2. **Attempt the Questions**: Each topic folder contains solution of their respective questions. Try to solve them on your own first.
 3. **Check the Solutions**: If you're stuck or want to compare your solution, look into the `solutions` subfolder within each topic directory.
+
+# Python Topic wise Questions
+
+Solve the following Python challenges by yourself. If you need help, the solutions are available in this repository. Good luck and have fun coding!
+
+## Variables
+### 1) Variable Assignment
+Assign the value 5 to a variable and then copy that value to another variable before printing it, how would you write a Python code to achieve this? 
+Your solution should involve creating two variables and ensuring the second variable displays the same value as the first when printed.
+
+### 2) Data Types
+What data type is the variable z if z = 3.5? write code to print type of z.
+Hint: The output should look something like "The value of z is 3.5 and type of z is float"
+
+
 
 ## Contributing
 
