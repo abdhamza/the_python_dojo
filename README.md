@@ -26,7 +26,7 @@ The repository is organized topic-wise, allowing you to focus on specific areas 
 
 Solve the following Python challenges by yourself. If you need help, the solutions are available in this repository. Good luck and have fun coding!
 
-## Variables
+## 01 Variables
 ### 1) Variable Assignment
 Assign the value 5 to a variable and then copy that value to another variable before printing it, how would you write a Python code to achieve this? 
 Your solution should involve creating two variables and ensuring the second variable displays the same value as the first when printed.
@@ -59,6 +59,7 @@ Given a = 3.14159265, how do you print a with only two decimal places?
 ### 10) Multiple Assignments
 How can you assign the values 1, 2, and 3 to variables a, b, and c in a single line?
 
+## 02 Data Types
 ### )
 
 ### 4)
