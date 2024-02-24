@@ -75,6 +75,36 @@ Write a Python program to create a list with five elements, then replace the thi
 ### 5) Combining Strings
 How can you concatenate two strings, str1 = "Hello" and str2 = "World", and print the combined string?
 
+### 6) Split String
+Write code to split the string s = "banana,apple,cherry" by commas into a list.
+
+### 7) Print Element of Tuple
+Create a tuple with four elements and print the third element.
+
+### 8) Print Value of Key
+Write a Python script to create a dictionary with three key-value pairs and print the value of the second key.
+
+### 9) Print Len of List
+How can you print the length of the list my_list = [1, 2, 3, 4, 5]?
+
+### 10) Reverse String
+Write a Python code to reverse the string s = "Hello World".
+
+### 11) String Conversion
+How do you convert the string num_str = "456" into an integer and double its value?
+
+### 12) Check Number in List
+Write Python code to check if the number 5 is in the list numbers = [1, 3, 5, 7, 9].
+
+### 13) Remove Duplicates from list
+Create a Python script that removes duplicates from a list my_list = [1,2,2,3,4,4,5].
+
+### 14) Merge Dictionaries
+Write a Python code to merge two dictionaries and check type of resultant dictionary dict1 = {'a': 100, 'b': 200} and dict2 = {'x': 300, 'y': 200}.
+
+### 15) Print Data Type
+How can you print the data type of a boolean variable b = True in Python?
+
 ## Contributing
 
 While this repository is primarily designed for educational purposes, contributions are welcome! If you have suggestions for additional practice questions or improvements to existing solutions, please feel free to submit a pull request or open an issue.
