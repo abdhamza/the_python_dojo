@@ -60,13 +60,20 @@ Given a = 3.14159265, how do you print a with only two decimal places?
 How can you assign the values 1, 2, and 3 to variables a, b, and c in a single line?
 
 ## 02 Data Types
-### )
+### 1) Type Conversion
+Write a Python script to convert an integer to a string and print it.
 
-### 4)
+### 2) Float conversion
+Create a Python code snippet that adds 2.5 and 4.8, then prints the result as a float.
 
-### 4)
+### 3) Variable Type
+How would you check the type of a variable x defined as x = {"name": "John", "age": 30} in Python?
 
-### 4)
+### 4) Replace element in list
+Write a Python program to create a list with five elements, then replace the third element with 'Python'.
+
+### 5) Combining Strings
+How can you concatenate two strings, str1 = "Hello" and str2 = "World", and print the combined string?
 
 ## Contributing
 
