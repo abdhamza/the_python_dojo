@@ -160,6 +160,30 @@ Convert "hello, world!" to title case.
 ### 18) Check if a String is Numeric
 Check if the string "12345" is numeric.
 
+### 19) Check if All Characters are Alphanumeric
+Check if the string "Python3" is entirely alphanumeric (letters and numbers only).
+
+### 20) String Alignment
+Align the string "Python" to the center in a field of 20 characters with "-" padding.
+
+### 21) Swap Case
+Swap the case of "Hello, World!" so that lowercase letters become uppercase and vice versa.
+
+### 22) Concatenate Without Using the + Operator
+Concatenate the strings "Hello" and "World" without using the + operator.
+
+### 23) String Repetition
+Repeat the string "Python" 3 times.
+
+### 24) Palindrome Check
+Write a Python program to check if the string "radar" is a palindrome (reads the same backward as forward).
+
+### 25) Character Frequency
+Write a Python program to count the frequency of each character in the string "mississippi" and print the frequencies in descending order.
+
+### 26) Substring Occurrences
+Write a Python program to find the number of occurrences of the substring "is" in the string "This is an island and it is beautiful", including overlapping occurrences.
+
 ## Contributing
 
 While this repository is primarily designed for educational purposes, contributions are welcome! If you have suggestions for additional practice questions or improvements to existing solutions, please feel free to submit a pull request or open an issue.
