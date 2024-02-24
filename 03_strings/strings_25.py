@@ -1,4 +1,4 @@
-'''Question 27: Character Frequency
+'''Question 25: Character Frequency
 Write a Python program to count the frequency of each character in the string "mississippi" and print the frequencies in descending order.'''
 
 from collections import Counter

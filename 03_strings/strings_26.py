@@ -1,4 +1,4 @@
-'''Question 28: Substring Occurrences
+'''Question 26: Substring Occurrences
 Write a Python program to find the number of occurrences of the substring "is" in the string "This is an island and it is beautiful", including overlapping occurrences.'''
 
 my_string = "This is an island and it is beautiful"

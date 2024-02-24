@@ -105,6 +105,61 @@ Write a Python code to merge two dictionaries and check type of resultant dictio
 ### 15) Print Data Type
 How can you print the data type of a boolean variable b = True in Python?
 
+## 03 Strings
+### 1) Create and Print a String
+Write a Python program to create a string with the text "Hello, World!" and print it.
+
+### 2) String Length
+Find and print the length of the string "Python Programming".
+
+### 3) Access Characters in a String
+Access and print the first and last character of the string "Python".
+
+### 4) Slicing a String
+Slice the string "Hello, World!" to only include "World".
+
+### 5) Concatenate Two Strings
+Concatenate the strings "Python" and "Programming" with a space in between.
+
+### 6) Uppercase and Lowercase
+Convert "Hello, World!" to uppercase and lowercase, and print both.
+
+### 7) Check if a String Contains a Substring
+Check if the string "Python" contains the substring "on" and print the result.
+
+### 8) Replace a Substring
+Replace "World" with "Python" in the string "Hello, World!".
+
+### 9) Split a String
+Split the string "Python-Programming-Language" using "-" as the separator.
+
+### 10) Find the Position of a Substring
+Find the position of the substring "Python" in the string "Learning Python Programming".
+
+### 11) Reverse a String
+Write a Python program to reverse the string "Hello, World!".
+
+### 12) Count the Occurrences of a Character
+Count how many times the character "o" appears in "Hello, World!".
+
+### 13) Strip Whitespace
+Remove leading and trailing whitespaces from the string " Hello, World! ".
+
+### 14) Check if String Ends with a Substring
+Check if "Hello, World!" ends with "World!".
+
+### 15) String Join Method
+Use the join() method to convert the list ['Python', 'Programming', 'Language'] into a single string separated by spaces.
+
+### 16) Capitalize the First Letter
+Capitalize the first letter of "hello, world!".
+
+### 17) Title Case a String
+Convert "hello, world!" to title case.
+
+### 18) Check if a String is Numeric
+Check if the string "12345" is numeric.
+
 ## Contributing
 
 While this repository is primarily designed for educational purposes, contributions are welcome! If you have suggestions for additional practice questions or improvements to existing solutions, please feel free to submit a pull request or open an issue.
