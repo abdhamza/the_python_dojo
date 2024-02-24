@@ -35,7 +35,37 @@ Your solution should involve creating two variables and ensuring the second vari
 What data type is the variable z if z = 3.5? write code to print type of z.
 Hint: The output should look something like "The value of z is 3.5 and type of z is float"
 
+### 3) Type Conversion
+Given x = "123", convert x to an integer.
 
+### 4) Combining Strings
+How do you combine the strings str1 = "Hello" and str2 = "World" to print out "Hello World"?
+
+### 5) Basic Arithmetic
+Given two variables a = 10 and b = 20, how do you calculate their sum and print it?
+
+### 6) Basic Arithmetic
+Given two variables a = 10 and b = 20, how do you calculate their product and print it?
+
+### 7) Swapping Variables
+How can you swap the values of two variables a = 5 and b = 10?
+
+### 8) String Repetition
+Given a string variable str = "Hi!", how do you print this string 3 times in a row?
+
+### 9) Float Precision
+Given a = 3.14159265, how do you print a with only two decimal places?
+
+### 10) Multiple Assignments
+How can you assign the values 1, 2, and 3 to variables a, b, and c in a single line?
+
+### )
+
+### 4)
+
+### 4)
+
+### 4)
 
 ## Contributing
 
