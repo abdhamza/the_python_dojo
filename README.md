@@ -291,6 +291,117 @@ Verify that q and r are not the same object.
 ### 28) Using is with Literals
 Check if s is None.
 
+## 06 Lists
+### 1) Basic List Operations
+Create a list named fruits containing "Apple", "Banana", and "Cherry". Then, add "Orange" to the end of the list and remove "Banana" from the list. Finally, print the updated list.
+
+### 2) List Indexing
+Given the list numbers = [10, 20, 30, 40, 50], print the second item and the last item of the list using negative indexing.
+
+### 3) List Slicing
+Create a list of numbers from 1 to 10. Use list slicing to print the first 5 elements and the last 4 elements in separate lines.
+
+### 4) List Comprehension
+Use list comprehension to create a new list named squares that contains the squares of all numbers in the list numbers = [1, 2, 3, 4, 5]. Print the squares list.
+
+### 5) Manipulating Lists with Methods
+Given a list items = ["Python", "Java", "C++", "JavaScript"], perform the following operations in order:
+
+1) Sort the list in alphabetical order.
+2) Reverse the order of the list.
+3) Insert "Ruby" at index 2.
+4) Print the final list.
+
+### 6) Find the Sum of Min and Max
+Given a list numbers = [10, 20, 30, 40, 50], find the sum of the minimum and maximum elements in the list.
+
+### 7) Reverse a List
+Given a list items = ["Python", "Java", "C++", "Ruby"], reverse the list without using a loop or the reverse() method.
+
+### 8) Concatenate First and Last Elements
+Given a list elements = ["a", "b", "c", "d"], create a new string by concatenating the first and last elements in the list.
+
+### 9) Extract Elements at Even Indices
+Given a list numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], create a new list containing elements at even indices.
+
+### 10) Check if List is Palindrome
+Write code that returns True if a list is a palindrome (reads the same backward as forward), and False otherwise, without using a loop. For example, is_palindrome([1, 2, 3, 2, 1]) should return True.
+
+## 11 While Loop
+### 1) Print Numbers from 1 to 10
+Print numbers from 1 to 10 using a while loop.
+
+### 2) Sum of First N Natural Numbers
+Ask the user for a number n and then calculate the sum of the first n natural numbers.
+
+### 3) Print Even Numbers Less Than N
+Ask the user for a number n and print all even numbers less than n.
+
+### 4) Find the Factorial of a Given Number
+Calculate the factorial of a given number n provided by the user.
+
+### 5) Calculate the Power of a Number
+Ask the user for the base x and exponent n and calculate x raised to the power n.
+
+### 6) Print All Divisors of a Number
+Ask the user to input a number and print all divisors of that number.
+
+### 7) Negative to Positive Number Conversion
+Ask the user to enter a negative number and keep asking until a positive number is entered.
+
+### 8) Print Numbers in Descending Order
+Ask the user for a number n and print numbers from n down to 1.
+
+### 9) Sum of Entered Numbers
+Keep asking the user to enter a number until they enter 0. Print the sum of all entered numbers.
+
+### 10) Multiplication Table
+Ask the user to enter a number, then print the multiplication table for that number up to 10.
+
+### 11) Detecting Palindrome
+Ask the user to enter a word and check if it is a palindrome (reads the same backward and forward).
+
+### 12) Count Down Timer
+Ask the user to enter a number of seconds, then count down to zero, printing each second.
+
+### 13) Fibonacci Sequence Up to N
+Generate and print the Fibonacci sequence up to a number n provided by the user.
+
+### 14) Print a Triangle of Stars
+Print a right-angled triangle of stars with height n provided by the user.
+
+### 15) Simple Interest Accumulation
+Given principal p, interest rate r, and time t in years, calculate how much interest is earned. The user enters p, r, and t.
+
+### 16) Break on Negative Input
+Ask the user to enter numbers repeatedly and sum them up. Stop asking for numbers and print the sum when the user enters a negative number.
+
+### 17) Stop at Specific Word
+Keep asking the user to enter words until they enter "stop". Once "stop" is entered, print "Program stopped" and terminate the loop.
+
+### 18) First Even Number
+Ask the user to enter numbers until they enter an even number. Print "Even number entered" and stop asking for more numbers.
+
+### 19) Skip to Next Iteration and Break
+Prompt the user to enter a series of integers. Use a while loop to add these integers to a sum. If the user enters 0, print "Zero encountered, skipping" and continue to the next iteration. If the user enters -1, break out of the loop and print the sum.
+
+### 20) Accept Only Valid Input
+Ask the user to enter an integer within a specified range, say 1 to 10. Repeat asking for the number until a valid input is entered. Use break to exit the loop once a valid number is entered.
+
+### 21) Print Non-negative Numbers
+Ask the user to enter numbers repeatedly. Use a while loop to print only the non-negative numbers. If the user enters a negative number, do not print it and ask for another number.
+
+### 22) Sum of Positive Numbers Only
+Prompt the user to enter numbers until they enter 0. Use a while loop to calculate the sum of only the positive numbers entered. Skip any negative numbers using the continue statement.
+
+### 23) Odd Numbers Skipper
+Ask the user to enter a series of numbers. Print each number except for when it is odd. Use the continue statement to skip odd numbers.
+
+### 24) Print Every Third Number
+Write a program that asks the user to enter numbers continuously. Use a counter to print every third number entered and skip the rest. Stop the loop if the user enters -1.
+
+### 25) Filter Specific Word
+Keep asking the user to input words. If the user inputs the word "skip", do not print it and ask for another word. Stop the loop if the user inputs "stop".
 
 ## Contributing
 
