@@ -184,6 +184,114 @@ Write a Python program to count the frequency of each character in the string "m
 ### 26) Substring Occurrences
 Write a Python program to find the number of occurrences of the substring "is" in the string "This is an island and it is beautiful", including overlapping occurrences.
 
+## 04 Boolean
+### 1) Boolean from Comparison
+Write a Python script that compares two numbers (5 and 10) and prints the result of whether 5 is greater than 10.
+
+### 2) Logical OR Operation
+Write a code snippet that checks if at least one of the variables a or b is True. a is False, and b is True.
+
+### 3) Not Operator
+What is the result of not True?
+
+### 4) Boolean in Conditions
+Write a Python script that prints "Python is awesome" if True.
+
+### 5) Comparing Strings
+What will be the output of the following code?
+
+### 6) Boolean Conversion
+Write a Python script that converts the integer 1 to a boolean and prints it.
+
+### 7) Boolean of an Empty String
+What will be the boolean value of an empty string when converted using the bool() function?
+
+## 05 Operators
+### 1) Adding Two Numbers
+Question: Add 25 and 75 and print the result.
+
+### 2) Subtracting Two Numbers
+Question: Subtract 40 from 200 and print the result.
+
+### 3) Multiplying Two Numbers
+Question: Multiply 15 by 3 and print the result.
+
+### 4) Dividing Two Numbers
+Question: Divide 100 by 4 and print the result.
+
+### 5) Modulus Operator
+Question: Find the remainder when 55 is divided by 6 and print the result.
+
+### 6) Exponentiation
+Question: Calculate 2 raised to the power of 5 and print the result.
+
+### 7) Floor Division
+Question: Perform floor division of 99 by 8 and print the result.
+
+### 8) Increment a Variable
+Question: Given a variable x = 10, increment it by 20 and print the result.
+
+### 9) Decrement a Variable
+Question: Given a variable y = 50, decrement it by 15 and print the result.
+
+### 10) Doubling a Number
+Question: Given a variable z = 7, double its value and print the result.
+
+### 11) Increment a Variable
+ Increase the value of variable a by 10.
+
+### 12) Decrement a Variable
+Decrease the value of variable b by 2.
+
+### 13) Multiply and Assign
+Multiply variable c by 3.
+
+### 14) Divide and Assign
+Divide variable d by 4 and update d.
+
+### 15) Modulus and Assign
+Apply modulus operation on e with 3 and update e.
+
+### 16) Check Equality
+Check if f is equal to 10.
+
+### 17) Greater Than
+Check if g is greater than 5.
+
+### 18) Less Than or Equal
+Check if h is less than or equal to 8.
+
+### 19) Not Equal
+Verify that i is not equal to 3.
+
+### 20) Comparison Chain: 
+Check if j is greater than 10 and less than 20.
+
+### 21) Logical AND
+Determine if k is between 5 and 10.
+
+### 22) Logical OR
+Check if l is either less than 2 or greater than 8.
+
+### 23) Logical NOT
+Use not operator to flip the truth value of m > 5.
+
+### 24) Combining Logical Operators
+Check if n is not between 0 and 10.
+
+### 25) Logical Precedence
+Evaluate True or False and False.
+
+### 26) Identity Check
+Check if o and p refer to the same object.
+
+### 27) Different Objects
+Verify that q and r are not the same object.
+
+### 28) Using is with Literals
+Check if s is None.
+
+
 ## Contributing
 
 While this repository is primarily designed for educational purposes, contributions are welcome! If you have suggestions for additional practice questions or improvements to existing solutions, please feel free to submit a pull request or open an issue.
