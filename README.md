@@ -482,62 +482,74 @@ Imagine a scenario where you're iterating over a range of numbers and you want t
 ## 13 Nested For Loop
 ### 1) Square Pattern
 Print a 5x5 square pattern of asterisks (*).'''
-# * * * * * 
-# * * * * * 
-# * * * * * 
-# * * * * * 
-# * * * * * 
+ * * * * * 
+ * * * * * 
+ * * * * * 
+ * * * * * 
+ * * * * * 
 
 ### 2) Right-angled Triangle
 Print a right-angled triangle pattern of asterisks (*), with the right angle at the bottom left and 5 levels high.'''
-# * 
-# * *
-# * * *
-# * * * *
-# * * * * *
+ * 
+ * *
+ * * *
+ * * * *
+ * * * * *
 
 ### 3) Inverted Right-angled Triangle
 Print an inverted right-angled triangle pattern of asterisks (*), with the right angle at the top left and 5 levels high.'''
-# * * * * * 
-# * * * *
-# * * *
-# * *
-# *
+ * * * * * 
+ * * * *
+ * * *
+ * *
+ *
 
 ### 4) Number Pyramid
 Print a pyramid pattern with numbers increased by 1, with the peak being 5.'''
-#     1
-#    2 2
-#   3 3 3
-#  4 4 4 4
-# 5 5 5 5 5
+     1
+    2 2
+   3 3 3
+  4 4 4 4
+ 5 5 5 5 5
 
 ### 5) Diamond Pattern
 Print a diamond pattern of asterisks (*) that is 5 levels high.'''
-#   * 
-#  * *
-# * * *
-#  * *
-#   *
+   * 
+  * *
+ * * *
+  * *
+   *
 
 ### 6) Checkerboard Pattern
 Print an 8x8 checkerboard pattern using hashtags (#) and spaces.'''
- # # # #
-# # # #
- # # # #
-# # # #
- # # # #
-# # # #
- # # # #
-# # # #
+ * * * *
+* * * *
+ * * * *
+* * * *
+ * * * *
+* * * *
+ * * * *
+* * * *
 
 ### 7) Downward Number Triangle
 Print a triangle of numbers descending from 5 to 1, with each row starting from 5 and reducing to the current level.'''
-# 5 4 3 2 1 
-# 4 3 2 1
-# 3 2 1
-# 2 1
-# 1
+5 4 3 2 1 
+4 3 2 1
+3 2 1
+2 1
+1
+
+### 8) Hourglass Pattern
+Print an hourglass pattern of asterisks (*) that is 5 levels high.'''
+ * * * * * 
+  * * * *
+   * * *
+    * *
+     *
+    * *
+   * * *
+  * * * *
+ * * * * *
 
 ## Contributing
 
