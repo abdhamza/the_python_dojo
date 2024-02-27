@@ -541,6 +541,7 @@ Print a triangle of numbers descending from 5 to 1, with each row starting from 
 
 ### 8) Hourglass Pattern
 Print an hourglass pattern of asterisks (*) that is 5 levels high.'''
+```
  * * * * * 
   * * * *
    * * *
@@ -550,6 +551,7 @@ Print an hourglass pattern of asterisks (*) that is 5 levels high.'''
    * * *
   * * * *
  * * * * *
+```
 
 ## Contributing
 
