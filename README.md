@@ -403,6 +403,142 @@ Write a program that asks the user to enter numbers continuously. Use a counter 
 ### 25) Filter Specific Word
 Keep asking the user to input words. If the user inputs the word "skip", do not print it and ask for another word. Stop the loop if the user inputs "stop".
 
+## 12 For Loop
+### 1) Print Numbers from 1 to 10
+Use a for loop to print numbers from 1 to 10.
+
+### 2) Sum of First N Natural Numbers
+Ask the user for a number n and use a for loop to calculate the sum of the first n natural numbers.
+
+### 3) Print Even Numbers Less Than N
+Ask the user for a number n and use a for loop to print all even numbers less than n.
+
+### 4) Factorial of a Given Number
+Calculate the factorial of a given number n provided by the user.
+
+### 5) Reverse a Given String
+Ask the user for a string and use a for loop to reverse it.
+
+### 6) Count Digits in a Number
+Ask the user to input a number and use a for loop to count the number of digits in that number.
+
+### 7) Print Multiplication Table
+Ask the user to enter a number, then print the multiplication table for that number up to 10.
+
+### 8) Sum of Entered Numbers
+Keep asking the user to enter numbers until they enter 0. Use a for loop (with range and input inside the loop) to sum all entered numbers.
+
+### 9) Find Average of List
+Given a list of numbers, use a for loop to calculate the average.
+
+### 10) Concatenate All List Elements into a String
+Given a list of strings, use a for loop to concatenate all elements into a single string.
+
+### 11) Skip to the First Non-alphabetic Character
+Given a string, use a for loop to iterate through each character and break the loop when the first non-alphabetic character is encountered. Print the position of this character.
+
+### 12) Stop Reading After a Specific Word
+Given a list of words, use a for loop to print each word until you encounter the word "stop". Once "stop" is encountered, exit the loop.
+
+### 13) Maximum Number Before Reaching a Threshold
+Given a list of numbers and a threshold value, use a for loop to find and print the maximum number in the list before any number exceeds the threshold.
+
+### 14) Print Characters of a String Until a Vowel
+Given a string, use a for loop to print each character until you encounter a vowel. When a vowel is encountered, stop the loop.
+
+### 15) Sum Numbers Until a Negative Entry
+Given a list of numbers, use a for loop to calculate the sum of the numbers until a negative number is encountered. Print the sum when the loop ends or breaks.
+
+### 16) Identify and Print the Index of the First Duplicate in a List
+Given a list of integers, identify the first element that appears more than once and print its index. If there are no duplicates, print a message indicating so.
+
+### 17) Exit Loop After Printing All Consonants in a String
+Given a string, use a for loop to print each consonant. Stop and exit the loop once you've printed all consonants in the string, ignoring vowels and non-alphabet characters.
+
+### 18) Count Items Until a Specific Item is Found
+Given a list and a target item, count how many items appear before the target item in the list. Use a loop and break when the target is found.
+
+### 19) Find and Print the First Perfect Square in a List
+Given a list of positive integers, find and print the first perfect square number. If there is no perfect square in the list, indicate so.
+
+### 20) Print Elements Up to a Specific Value (Exclusive)
+Given a sorted list of numbers and a threshold value, print each number up to but not including the first number that is greater than or equal to the threshold.
+
+### 21) Iterate Over a Range Without Action
+Write a for loop to iterate over numbers from 1 to 10 and use the pass statement to perform no action within the loop.
+
+### 22) Check for Odd Numbers and Do Nothing
+Given a list of numbers, write a for loop that checks if each number is odd. If a number is odd, use the pass statement; otherwise, print the number.
+
+### 23) Placeholder for Future Code
+Suppose you're planning to write a for loop that will process items in a list, but you're not ready to implement the processing code yet. Write the loop structure with a pass statement as a placeholder.
+
+### 24) Skip Printing Specific Words
+Given a list of words, write a for loop to print each word except the word "skip". Use the pass statement for "skip" and continue to the next iteration.
+
+### 25) Simulate a No-Operation in a Conditional Block
+Imagine a scenario where you're iterating over a range of numbers and you want to print a message only if the number is a multiple of 5. If it's not, you deliberately choose to do nothing.
+
+## 13 Nested For Loop
+### 1) Square Pattern
+Print a 5x5 square pattern of asterisks (*).'''
+# * * * * * 
+# * * * * * 
+# * * * * * 
+# * * * * * 
+# * * * * * 
+
+### 2) Right-angled Triangle
+Print a right-angled triangle pattern of asterisks (*), with the right angle at the bottom left and 5 levels high.'''
+# * 
+# * *
+# * * *
+# * * * *
+# * * * * *
+
+### 3) Inverted Right-angled Triangle
+Print an inverted right-angled triangle pattern of asterisks (*), with the right angle at the top left and 5 levels high.'''
+# * * * * * 
+# * * * *
+# * * *
+# * *
+# *
+
+### 4) Number Pyramid
+Print a pyramid pattern with numbers increased by 1, with the peak being 5.'''
+#     1
+#    2 2
+#   3 3 3
+#  4 4 4 4
+# 5 5 5 5 5
+
+### 5) Diamond Pattern
+Print a diamond pattern of asterisks (*) that is 5 levels high.'''
+#   * 
+#  * *
+# * * *
+#  * *
+#   *
+
+### 6) Checkerboard Pattern
+Print an 8x8 checkerboard pattern using hashtags (#) and spaces.'''
+ # # # #
+# # # #
+ # # # #
+# # # #
+ # # # #
+# # # #
+ # # # #
+# # # #
+
+### 7) Downward Number Triangle
+Print a triangle of numbers descending from 5 to 1, with each row starting from 5 and reducing to the current level.'''
+# 5 4 3 2 1 
+# 4 3 2 1
+# 3 2 1
+# 2 1
+# 1
+
 ## Contributing
 
 While this repository is primarily designed for educational purposes, contributions are welcome! If you have suggestions for additional practice questions or improvements to existing solutions, please feel free to submit a pull request or open an issue.
