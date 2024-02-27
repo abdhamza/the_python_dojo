@@ -567,6 +567,73 @@ Print an hourglass pattern of asterisks (*) that is 5 levels high.'''
  * * * * *
 ```
 
+### 9) Alphabet Triangle
+Print a triangle pattern with alphabets, starting with 'A' at the top and increasing alphabetically with each level, up to 5 levels.'''
+ ```
+ A 
+ A B 
+ A B C 
+ A B C D
+ A B C D E
+ ```
+
+### 10) Inverted Pyramid of Numbers
+Print an inverted pyramid pattern with numbers, starting with 1 to 5 at the top and decreasing by one number each level.'''
+```
+ 1 2 3 4 5
+  1 2 3 4
+   1 2 3
+    1 2
+     1
+```
+
+### 11) Zigzag Pattern
+Print a zigzag pattern of asterisks (*) spanning 3 rows and 9 columns.'''
+```
+ *   *   *   *   * 
+   *   *   *   *
+```
+
+### 12) Numeric Pyramid with Spacing
+Print a pyramid pattern where numbers increase from 1 at the top to 5 at the base, with appropriate spacing on each side.'''
+```
+         1
+       1   2
+     1   2   3
+   1   2   3   4
+ 1   2   3   4   5
+```
+
+### 13) Hollow Square
+Print a 5x5 hollow square pattern of asterisks (*), where only the border is printed.'''
+```
+ * * * * * 
+ *       *
+ *       *
+ *       *
+ * * * * *
+ ```
+
+### 14) Cross Pattern
+Print a cross (X) pattern of asterisks (*) that spans 5 lines.'''
+```
+ *   *
+  * *
+   *
+  * *
+ *   *
+ ```
+
+### 15) Staircase Pattern
+Print a staircase pattern of asterisks (*), where each level has one more asterisk than the previous level, up to 5 levels.'''
+```
+ *
+ **
+ ***
+ ****
+ *****
+ ```
+
 ## Contributing
 
 While this repository is primarily designed for educational purposes, contributions are welcome! If you have suggestions for additional practice questions or improvements to existing solutions, please feel free to submit a pull request or open an issue.
