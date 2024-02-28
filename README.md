@@ -696,39 +696,6 @@ Print a staircase pattern of asterisks (*), where each level has one more asteri
  *****
  ```
 
-## 07 Tuples
-### 1 Tuple Creation
-Create a tuple named colors that contains the strings "red", "green", and "blue" and print it's type.
-
-### 2 Access Tuple Elements
-Given the tuple numbers = (1, 2, 3, 4, 5), access and print the third element.
-
-### 3 Negative Indexing
-Given the tuple fruits = ("apple", "banana", "cherry"), use negative indexing to print the last item.
-
-### 4 Slicing Tuples
-Given the tuple alphabets = ('a', 'b', 'c', 'd', 'e', 'f', 'g'), slice and print the tuple from the second to the fifth item (inclusive).
-
-### 5 Tuple Unpacking
-Given the tuple info = ("John", "Doe", 30), unpack the values into variables first_name, last_name, and age, then print them.
-
-### 6 Immutable Tuples
-Explain why you cannot change the value of an element in the tuple numbers = (1, 2, 3) and attempt to change the first element to 0.
-
-### 7 Tuple Concatenation
-Concatenate the two tuples tuple1 = (1, 2, 3) and tuple2 = (4, 5, 6) into a new tuple named tuple3.
-
-### 8 Tuple Repetition
-Given the tuple repeated = ("Python",), repeat it 5 times and print the result.
-
-### 9 Tuple Length
-Find and print the length of the tuple mixed = (1, "a", True, "b", 2.3).
-
-### 10 Check Element Existence
-Check if the element "Python" exists in the tuple languages = ("Java", "C", "Python", "Scala"). Print True if it exists, otherwise False.
-
-
-
 ## Contributing
 
 While this repository is primarily designed for educational purposes, contributions are welcome! If you have suggestions for additional practice questions or improvements to existing solutions, please feel free to submit a pull request or open an issue.
