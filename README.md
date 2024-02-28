@@ -327,6 +327,37 @@ Given a list numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], create a new list contain
 ### 10) Check if List is Palindrome
 Write code that returns True if a list is a palindrome (reads the same backward as forward), and False otherwise, without using a loop. For example, is_palindrome([1, 2, 3, 2, 1]) should return True.
 
+## 08 Sets
+### 1) Create and Print a Set
+Create a set named colors containing the values "red", "blue", and "green". Then, print the set.
+
+### 2) Add an Element to a Set
+Given a set numbers = {1, 2, 3}, add the number 4 to the set, then print the updated set.
+
+### 3) Remove an Element Safely
+Given a set fruits = {"apple", "banana", "cherry"}, remove "banana" from the set using a method that does not raise an error if the element is not present. Print the set afterwards.
+
+### 4) Find the Length of a Set
+Given a set items = {"book", "pen", "pencil", "notebook"}, find and print the number of elements in the set.
+
+### 5) Check for Membership
+Check if "Python" is an element of the set languages = {"Java", "C", "Python", "Scala"}. Print True if it exists, otherwise print False.
+
+### 6) Set Union
+Given two sets a = {1, 2, 3} and b = {3, 4, 5}, create and print a new set that is the union of sets a and b.
+
+### 7) Set Intersection
+Given two sets a = {1, 2, 3} and b = {3, 4, 5}, create and print a new set that is the intersection of sets a and b.
+
+### 8) Set Difference
+Given two sets a = {1, 2, 3} and b = {3, 4, 5}, create and print a new set that contains the elements that are in a but not in b.
+
+### 9) Symmetric Difference
+Given two sets a = {1, 2, 3} and b = {3, 4, 5}, create and print a new set that contains the elements that are in either a or b but not in both.
+
+### 10) Clear a Set
+Given a set items = {"book", "pen", "pencil", "notebook"}, clear all elements from the set, then print the empty set.
+
 ## 11 While Loop
 ### 1) Print Numbers from 1 to 10
 Print numbers from 1 to 10 using a while loop.
@@ -665,36 +696,7 @@ Find and print the length of the tuple mixed = (1, "a", True, "b", 2.3).
 ### 10 Check Element Existence
 Check if the element "Python" exists in the tuple languages = ("Java", "C", "Python", "Scala"). Print True if it exists, otherwise False.
 
-## 08 Sets
-### 1) Create and Print a Set
-Create a set named colors containing the values "red", "blue", and "green". Then, print the set.
 
-### 2) Add an Element to a Set
-Given a set numbers = {1, 2, 3}, add the number 4 to the set, then print the updated set.
-
-### 3) Remove an Element Safely
-Given a set fruits = {"apple", "banana", "cherry"}, remove "banana" from the set using a method that does not raise an error if the element is not present. Print the set afterwards.
-
-### 4) Find the Length of a Set
-Given a set items = {"book", "pen", "pencil", "notebook"}, find and print the number of elements in the set.
-
-### 5) Check for Membership
-Check if "Python" is an element of the set languages = {"Java", "C", "Python", "Scala"}. Print True if it exists, otherwise print False.
-
-### 6) Set Union
-Given two sets a = {1, 2, 3} and b = {3, 4, 5}, create and print a new set that is the union of sets a and b.
-
-### 7) Set Intersection
-Given two sets a = {1, 2, 3} and b = {3, 4, 5}, create and print a new set that is the intersection of sets a and b.
-
-### 8) Set Difference
-Given two sets a = {1, 2, 3} and b = {3, 4, 5}, create and print a new set that contains the elements that are in a but not in b.
-
-### 9) Symmetric Difference
-Given two sets a = {1, 2, 3} and b = {3, 4, 5}, create and print a new set that contains the elements that are in either a or b but not in both.
-
-### 10) Clear a Set
-Given a set items = {"book", "pen", "pencil", "notebook"}, clear all elements from the set, then print the empty set.
 
 ## Contributing
 
