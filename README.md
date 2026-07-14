@@ -1,34 +1,72 @@
-# the_python_dojo
-# Python Practice Questions and Solutions
+# 🐍 The Python Dojo
 
-Welcome to our Python Practice Questions and Solutions repository! This resource is designed for students who are eager to sharpen their Python programming skills through hands-on practice. Each topic is carefully curated to enhance your understanding of Python, from the basics to more advanced concepts.
+![License](https://img.shields.io/badge/license-GPL--3.0-blue)
+![Topics](https://img.shields.io/badge/topics-11-orange)
+![Questions](https://img.shields.io/badge/questions-181-brightgreen)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-ff69b4)
 
-## Repository Structure
+Sharpen your Python skills, one dojo belt at a time. 🥋
+A collection of hands-on Python practice questions — from your first `variable`
+to nested loops that draw pyramids — with solutions included so you can check
+your work.
 
-The repository is organized topic-wise, allowing you to focus on specific areas of interest or challenge. Here's how it's structured:
+## 📖 Table of Contents
 
-- **Basics**: Start here if you're new to Python or programming in general. Topics include variables, data types, and basic I/O operations.
-- **Control Structures**: Dive into conditional statements and loops to control the flow of your Python programs.
-- **Functions and Modules**: Learn how to write reusable pieces of code with functions and understand how to organize your projects with modules.
-- **Data Structures**: Explore Python's built-in data structures like lists, tuples, dictionaries, and sets.
-- **Object-Oriented Programming (OOP)**: Understand classes, objects, inheritance, and more to write structured and efficient code.
-- **Error Handling**: Learn how to make your programs more robust by handling exceptions gracefully.
-- **File Handling**: Practice reading from and writing to files to handle data persistence in your applications.
-- **Advanced Topics**: Challenge yourself with more complex topics, including decorators, generators, and comprehensions.
+- [Repository Structure](#%EF%B8%8F-repository-structure)
+- [How to Use](#-how-to-use)
+- [Progress Tracker](#-progress-tracker)
+- [Topics](#-topics)
+- [Contributing](#-contributing)
+- [License](#-license)
+- [Acknowledgements](#-acknowledgements)
 
-## How to Use This Repository
+## 🗂️ Repository Structure
 
-1. **Choose a Topic**: Navigate to the topic you're currently learning or want to practice.
-2. **Attempt the Questions**: Each topic folder contains solution of their respective questions. Try to solve them on your own first.
-3. **Check the Solutions**: If you're stuck or want to compare your solution, look into the `solutions` subfolder within each topic directory.
+Each topic lives in its own numbered folder (e.g. `01_variables`, `06_lists`).
+Inside, every question is a single `.py` file: the question is written as a
+docstring at the top of the file, and the solution code follows right below
+it. Try to solve it yourself before reading the code!
 
-# Python Topic wise Questions
+```
+01_variables/
+├── variables_01.py   # question docstring + solution
+├── variables_02.py
+└── ...
+```
 
-Solve the following Python challenges by yourself. If you need help, the solutions are available in this repository. Good luck and have fun coding!
+## 🚀 How to Use
 
-## 01 Variables
+1. **Pick a topic** — browse the [Topics](#-topics) section below or jump
+   straight into a folder.
+2. **Read the question** — it's the docstring at the top of each `.py` file.
+3. **Solve it yourself first** — then scroll down in the same file to compare
+   with the provided solution.
+4. **Tick it off** — check the topic below once you've worked through it.
+
+## ✅ Progress Tracker
+
+- [ ] [01. Variables](01_variables) — 10 questions
+- [ ] [02. Data Types](02_data_types) — 15 questions
+- [ ] [03. Strings](03_strings) — 26 questions
+- [ ] [04. Boolean](04_boolean) — 7 questions
+- [ ] [05. Operators](05_operators) — 28 questions
+- [ ] [06. Lists](06_lists) — 10 questions
+- [ ] [07. Tuples](07_tuples) — 10 questions
+- [ ] [08. Sets](08_sets) — 10 questions
+- [ ] [11. While Loop](11_while-loop) — 25 questions
+- [ ] [12. For Loop](12_for-loop) — 25 questions
+- [ ] [13. Nested For Loop](13_nested-for-loop) — 15 questions
+
+## 📚 Topics
+
+Solve the following Python challenges by yourself. If you need help, the
+solution is right there in the same file. Good luck and have fun coding! 🎉
+
+<details id="01-variables">
+<summary><b>01. Variables</b> — 10 questions · <a href="01_variables">folder →</a></summary>
+
 ### 1) Variable Assignment
-Assign the value 5 to a variable and then copy that value to another variable before printing it, how would you write a Python code to achieve this? 
+Assign the value 5 to a variable and then copy that value to another variable before printing it, how would you write a Python code to achieve this?
 Your solution should involve creating two variables and ensuring the second variable displays the same value as the first when printed.
 
 ### 2) Data Types
@@ -59,7 +97,11 @@ Given a = 3.14159265, how do you print a with only two decimal places?
 ### 10) Multiple Assignments
 How can you assign the values 1, 2, and 3 to variables a, b, and c in a single line?
 
-## 02 Data Types
+</details>
+
+<details id="02-data-types">
+<summary><b>02. Data Types</b> — 15 questions · <a href="02_data_types">folder →</a></summary>
+
 ### 1) Type Conversion
 Write a Python script to convert an integer to a string and print it.
 
@@ -105,7 +147,11 @@ Write a Python code to merge two dictionaries and check type of resultant dictio
 ### 15) Print Data Type
 How can you print the data type of a boolean variable b = True in Python?
 
-## 03 Strings
+</details>
+
+<details id="03-strings">
+<summary><b>03. Strings</b> — 26 questions · <a href="03_strings">folder →</a></summary>
+
 ### 1) Create and Print a String
 Write a Python program to create a string with the text "Hello, World!" and print it.
 
@@ -184,7 +230,11 @@ Write a Python program to count the frequency of each character in the string "m
 ### 26) Substring Occurrences
 Write a Python program to find the number of occurrences of the substring "is" in the string "This is an island and it is beautiful", including overlapping occurrences.
 
-## 04 Boolean
+</details>
+
+<details id="04-boolean">
+<summary><b>04. Boolean</b> — 7 questions · <a href="04_boolean">folder →</a></summary>
+
 ### 1) Boolean from Comparison
 Write a Python script that compares two numbers (5 and 10) and prints the result of whether 5 is greater than 10.
 
@@ -206,39 +256,43 @@ Write a Python script that converts the integer 1 to a boolean and prints it.
 ### 7) Boolean of an Empty String
 What will be the boolean value of an empty string when converted using the bool() function?
 
-## 05 Operators
+</details>
+
+<details id="05-operators">
+<summary><b>05. Operators</b> — 28 questions · <a href="05_operators">folder →</a></summary>
+
 ### 1) Adding Two Numbers
-Question: Add 25 and 75 and print the result.
+Add 25 and 75 and print the result.
 
 ### 2) Subtracting Two Numbers
-Question: Subtract 40 from 200 and print the result.
+Subtract 40 from 200 and print the result.
 
 ### 3) Multiplying Two Numbers
-Question: Multiply 15 by 3 and print the result.
+Multiply 15 by 3 and print the result.
 
 ### 4) Dividing Two Numbers
-Question: Divide 100 by 4 and print the result.
+Divide 100 by 4 and print the result.
 
 ### 5) Modulus Operator
-Question: Find the remainder when 55 is divided by 6 and print the result.
+Find the remainder when 55 is divided by 6 and print the result.
 
 ### 6) Exponentiation
-Question: Calculate 2 raised to the power of 5 and print the result.
+Calculate 2 raised to the power of 5 and print the result.
 
 ### 7) Floor Division
-Question: Perform floor division of 99 by 8 and print the result.
+Perform floor division of 99 by 8 and print the result.
 
 ### 8) Increment a Variable
-Question: Given a variable x = 10, increment it by 20 and print the result.
+Given a variable x = 10, increment it by 20 and print the result.
 
 ### 9) Decrement a Variable
-Question: Given a variable y = 50, decrement it by 15 and print the result.
+Given a variable y = 50, decrement it by 15 and print the result.
 
 ### 10) Doubling a Number
-Question: Given a variable z = 7, double its value and print the result.
+Given a variable z = 7, double its value and print the result.
 
 ### 11) Increment a Variable
- Increase the value of variable a by 10.
+Increase the value of variable a by 10.
 
 ### 12) Decrement a Variable
 Decrease the value of variable b by 2.
@@ -264,7 +318,7 @@ Check if h is less than or equal to 8.
 ### 19) Not Equal
 Verify that i is not equal to 3.
 
-### 20) Comparison Chain: 
+### 20) Comparison Chain
 Check if j is greater than 10 and less than 20.
 
 ### 21) Logical AND
@@ -291,7 +345,11 @@ Verify that q and r are not the same object.
 ### 28) Using is with Literals
 Check if s is None.
 
-## 06 Lists
+</details>
+
+<details id="06-lists">
+<summary><b>06. Lists</b> — 10 questions · <a href="06_lists">folder →</a></summary>
+
 ### 1) Basic List Operations
 Create a list named fruits containing "Apple", "Banana", and "Cherry". Then, add "Orange" to the end of the list and remove "Banana" from the list. Finally, print the updated list.
 
@@ -306,11 +364,10 @@ Use list comprehension to create a new list named squares that contains the squa
 
 ### 5) Manipulating Lists with Methods
 Given a list items = ["Python", "Java", "C++", "JavaScript"], perform the following operations in order:
-
-1) Sort the list in alphabetical order.
-2) Reverse the order of the list.
-3) Insert "Ruby" at index 2.
-4) Print the final list.
+1. Sort the list in alphabetical order.
+2. Reverse the order of the list.
+3. Insert "Ruby" at index 2.
+4. Print the final list.
 
 ### 6) Find the Sum of Min and Max
 Given a list numbers = [10, 20, 30, 40, 50], find the sum of the minimum and maximum elements in the list.
@@ -327,7 +384,11 @@ Given a list numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], create a new list contain
 ### 10) Check if List is Palindrome
 Write code that returns True if a list is a palindrome (reads the same backward as forward), and False otherwise, without using a loop. For example, is_palindrome([1, 2, 3, 2, 1]) should return True.
 
-## 07 Tuple
+</details>
+
+<details id="07-tuples">
+<summary><b>07. Tuples</b> — 10 questions · <a href="07_tuples">folder →</a></summary>
+
 ### 1) Tuple Creation
 Create a tuple named colors that contains the strings "red", "green", and "blue" and print it's type.
 
@@ -358,7 +419,11 @@ Find and print the length of the tuple mixed = (1, "a", True, "b", 2.3).
 ### 10) Check Element Existence
 Check if the element "Python" exists in the tuple languages = ("Java", "C", "Python", "Scala"). Print True if it exists, otherwise False.
 
-## 08 Sets
+</details>
+
+<details id="08-sets">
+<summary><b>08. Sets</b> — 10 questions · <a href="08_sets">folder →</a></summary>
+
 ### 1) Create and Print a Set
 Create a set named colors containing the values "red", "blue", and "green". Then, print the set.
 
@@ -389,7 +454,11 @@ Given two sets a = {1, 2, 3} and b = {3, 4, 5}, create and print a new set that 
 ### 10) Clear a Set
 Given a set items = {"book", "pen", "pencil", "notebook"}, clear all elements from the set, then print the empty set.
 
-## 11 While Loop
+</details>
+
+<details id="11-while-loop">
+<summary><b>11. While Loop</b> — 25 questions · <a href="11_while-loop">folder →</a></summary>
+
 ### 1) Print Numbers from 1 to 10
 Print numbers from 1 to 10 using a while loop.
 
@@ -465,7 +534,11 @@ Write a program that asks the user to enter numbers continuously. Use a counter 
 ### 25) Filter Specific Word
 Keep asking the user to input words. If the user inputs the word "skip", do not print it and ask for another word. Stop the loop if the user inputs "stop".
 
-## 12 For Loop
+</details>
+
+<details id="12-for-loop">
+<summary><b>12. For Loop</b> — 25 questions · <a href="12_for-loop">folder →</a></summary>
+
 ### 1) Print Numbers from 1 to 10
 Use a for loop to print numbers from 1 to 10.
 
@@ -541,59 +614,63 @@ Given a list of words, write a for loop to print each word except the word "skip
 ### 25) Simulate a No-Operation in a Conditional Block
 Imagine a scenario where you're iterating over a range of numbers and you want to print a message only if the number is a multiple of 5. If it's not, you deliberately choose to do nothing.
 
-## 13 Nested For Loop
+</details>
+
+<details id="13-nested-for-loop">
+<summary><b>13. Nested For Loop</b> — 15 questions · <a href="13_nested-for-loop">folder →</a></summary>
+
 ### 1) Square Pattern
-Print a 5x5 square pattern of asterisks (*).'''
+Print a 5x5 square pattern of asterisks (*).
 ```
- * * * * * 
- * * * * * 
- * * * * * 
- * * * * * 
- * * * * * 
- ```
+* * * * *
+* * * * *
+* * * * *
+* * * * *
+* * * * *
+```
 
 ### 2) Right-angled Triangle
-Print a right-angled triangle pattern of asterisks (*), with the right angle at the bottom left and 5 levels high.'''
-``` 
- * 
- * *
- * * *
- * * * *
- * * * * *
+Print a right-angled triangle pattern of asterisks (*), with the right angle at the bottom left and 5 levels high.
+```
+*
+* *
+* * *
+* * * *
+* * * * *
 ```
 
 ### 3) Inverted Right-angled Triangle
-Print an inverted right-angled triangle pattern of asterisks (*), with the right angle at the top left and 5 levels high.'''
+Print an inverted right-angled triangle pattern of asterisks (*), with the right angle at the top left and 5 levels high.
 ```
- * * * * * 
- * * * *
- * * *
- * *
- *
+* * * * *
+* * * *
+* * *
+* *
+*
 ```
 
 ### 4) Number Pyramid
-Print a pyramid pattern with numbers increased by 1, with the peak being 5.'''
+Print a pyramid pattern with numbers increased by 1, with the peak being 5.
 ```
-     1
-    2 2
-   3 3 3
-  4 4 4 4
- 5 5 5 5 5
- ```
+    1
+   2 2
+  3 3 3
+ 4 4 4 4
+5 5 5 5 5
+```
 
 ### 5) Diamond Pattern
-Print a diamond pattern of asterisks (*) that is 5 levels high.'''
+Print a diamond pattern of asterisks (*) that is 5 levels high.
 ```
-   * 
-  * *
- * * *
-  * *
-   *
+  *
+ * *
+* * *
+ * *
+  *
 ```
 
 ### 6) Checkerboard Pattern
-Print an 8x8 checkerboard pattern using hashtags (#) and spaces.'''
+Print an 8x8 checkerboard pattern using asterisks (*) and spaces.
 ```
  * * * *
 * * * *
@@ -606,9 +683,9 @@ Print an 8x8 checkerboard pattern using hashtags (#) and spaces.'''
 ```
 
 ### 7) Downward Number Triangle
-Print a triangle of numbers descending from 5 to 1, with each row starting from 5 and reducing to the current level.'''
+Print a triangle of numbers descending from 5 to 1, with each row starting from 5 and reducing to the current level.
 ```
-5 4 3 2 1 
+5 4 3 2 1
 4 3 2 1
 3 2 1
 2 1
@@ -616,96 +693,103 @@ Print a triangle of numbers descending from 5 to 1, with each row starting from 
 ```
 
 ### 8) Hourglass Pattern
-Print an hourglass pattern of asterisks (*) that is 5 levels high.'''
+Print an hourglass pattern of asterisks (*) that is 5 levels high.
 ```
- * * * * * 
-  * * * *
-   * * *
-    * *
-     *
-    * *
-   * * *
-  * * * *
- * * * * *
+* * * * *
+ * * * *
+  * * *
+   * *
+    *
+   * *
+  * * *
+ * * * *
+* * * * *
 ```
 
 ### 9) Alphabet Triangle
-Print a triangle pattern with alphabets, starting with 'A' at the top and increasing alphabetically with each level, up to 5 levels.'''
- ```
- A 
- A B 
- A B C 
- A B C D
- A B C D E
- ```
+Print a triangle pattern with alphabets, starting with 'A' at the top and increasing alphabetically with each level, up to 5 levels.
+```
+A
+A B
+A B C
+A B C D
+A B C D E
+```
 
 ### 10) Inverted Pyramid of Numbers
-Print an inverted pyramid pattern with numbers, starting with 1 to 5 at the top and decreasing by one number each level.'''
+Print an inverted pyramid pattern with numbers, starting with 1 to 5 at the top and decreasing by one number each level.
 ```
- 1 2 3 4 5
-  1 2 3 4
-   1 2 3
-    1 2
-     1
+1 2 3 4 5
+ 1 2 3 4
+  1 2 3
+   1 2
+    1
 ```
 
 ### 11) Zigzag Pattern
-Print a zigzag pattern of asterisks (*) spanning 3 rows and 9 columns.'''
+Print a zigzag pattern of asterisks (*) spanning 3 rows and 9 columns.
 ```
- *   *   *   *   * 
-   *   *   *   *
+*   *   *   *   *
+  *   *   *   *
 ```
 
 ### 12) Numeric Pyramid with Spacing
-Print a pyramid pattern where numbers increase from 1 at the top to 5 at the base, with appropriate spacing on each side.'''
+Print a pyramid pattern where numbers increase from 1 at the top to 5 at the base, with appropriate spacing on each side.
 ```
-         1
-       1   2
-     1   2   3
-   1   2   3   4
- 1   2   3   4   5
+        1
+      1   2
+    1   2   3
+  1   2   3   4
+1   2   3   4   5
 ```
 
 ### 13) Hollow Square
-Print a 5x5 hollow square pattern of asterisks (*), where only the border is printed.'''
+Print a 5x5 hollow square pattern of asterisks (*), where only the border is printed.
 ```
- * * * * * 
- *       *
- *       *
- *       *
- * * * * *
- ```
+* * * * *
+*       *
+*       *
+*       *
+* * * * *
+```
 
 ### 14) Cross Pattern
-Print a cross (X) pattern of asterisks (*) that spans 5 lines.'''
+Print a cross (X) pattern of asterisks (*) that spans 5 lines.
 ```
- *   *
-  * *
-   *
-  * *
- *   *
- ```
+*   *
+ * *
+  *
+ * *
+*   *
+```
 
 ### 15) Staircase Pattern
-Print a staircase pattern of asterisks (*), where each level has one more asterisk than the previous level, up to 5 levels.'''
+Print a staircase pattern of asterisks (*), where each level has one more asterisk than the previous level, up to 5 levels.
 ```
- *
- **
- ***
- ****
- *****
- ```
+*
+**
+***
+****
+*****
+```
 
-## Contributing
+</details>
 
-While this repository is primarily designed for educational purposes, contributions are welcome! If you have suggestions for additional practice questions or improvements to existing solutions, please feel free to submit a pull request or open an issue.
+## 🤝 Contributing
 
-## License
+While this repository is primarily designed for educational purposes,
+contributions are welcome! If you have suggestions for additional practice
+questions or improvements to existing solutions, please feel free to submit a
+pull request or open an issue.
 
-This repository is open-sourced under the MIT License. See the [LICENSE](LICENSE.md) file for more details.
+## 📄 License
 
-## Acknowledgements
+This repository is open-sourced under the **GNU General Public License v3.0**.
+See the [LICENSE](LICENSE) file for more details.
 
-A big thank you to all contributors and students who make this repository a rich resource for learning and practicing Python.
+## 🙏 Acknowledgements
 
-Happy Coding!
+A big thank you to all contributors and students who make this repository a
+rich resource for learning and practicing Python.
+
+Happy Coding! 🎉
